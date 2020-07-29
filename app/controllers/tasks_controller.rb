@@ -17,7 +17,6 @@ class TasksController < ApplicationController
   end
 
   def create
-    # @task = Task.new(task_params)
     @task = current_user.tasks.new(task_params)
 
     if @task.save
