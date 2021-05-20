@@ -10,7 +10,7 @@ gem 'rails', '~> 5.2.2'
 # バージョン 0.4.4 以上で 0.6.0 未満の中で、最新のライブラリをインストールする
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
